@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         routes: [
           GoRoute(
             name: RouteNames.profile,
-            path: 'profile/:name',
+            path: 'profile',
             builder: (context, state) =>
                 Profile(name: state.uri.queryParameters['name']!),
           ),

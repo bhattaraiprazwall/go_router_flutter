@@ -15,7 +15,6 @@ class Profile extends StatelessWidget {
           onPressed: () {
             // GoRouter.of(context).go('/');
             // context.go('/');
-            
 
             //For named route
             context.goNamed(RouteNames.dashboard);
